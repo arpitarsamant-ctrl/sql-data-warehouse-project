@@ -38,4 +38,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## About Me
 
-Hi there! I'm **Arpita Ram Samant**, an architect turned analyst and data enthusiast. I love taking on projects and mapping out solutions and frameworks that break down the most complex problems in a digestable way. No problem is unsolvable and everything boils down to our resolve. I live by words of the famous Carl Jung: "There is a mystical fool in me that proved to be stronger than all my science."
+Hi there! I'm **Arpita Ram Samant**, an architect turned analyst and data enthusiast. I love taking on projects and mapping out solutions and frameworks that break down the most complex problems in a digestable way. No problem is unsolvable and everything boils down to our resolve. I live by words of the famous Carl Jung: _"There is a mystical fool in me that proved to be stronger than all my science."_
