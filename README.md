@@ -1,33 +1,41 @@
-# sql-data-warehouse-project
-# SQL Data Warehouse from Scratch (SQL Server) — End-to-End DW + ETL
-
-Build a modern **SQL Server** data warehouse that consolidates sales data for analytics and reporting: ingest → clean/transform → model for BI. This repo is structured like a real-world project (architecture, ETL layers, dimensional model, documentation).  
-Inspired by the YouTube project: **“SQL Data Warehouse from Scratch | Full Hands-On Data Engineering Project”**.
+# Data Warehouse and Analytics Project
+ 
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. It highlights industry best practices in data engineering and analytics.
 
 ---
 
-## What this project does
+## Project Requirements
 
-- Ingests raw data from source systems/files into a **landing/staging layer**
-- Applies **data cleansing + transformations** to create analytics-ready datasets
-- Builds a **dimensional model** (star schema) optimized for reporting
-- Produces **documentation** (ERD + data dictionary + lineage notes)
+### Building the Data Warehouse (Data Engineering)
 
-> Goal: a portfolio-ready warehouse you can demo with SQL queries and BI dashboards.  
+#### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Scope**: Focus on the latest dataset only; historization of data is not required.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
 
-## Architecture (Layered Warehouse)
+### BI: Analytics & Reporting (Data Analytics)
 
-A practical “layered” approach (a.k.a. Bronze/Silver/Gold / Staging→Warehouse→Mart):
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
 
-- **Bronze / Staging**: raw tables (as-is from sources)
-- **Silver / Warehouse**: cleaned + standardized + conformed entities
-- **Gold / Data Mart**: star schema + aggregates for BI
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-```mermaid
-flowchart LR
-  A[Source Data\n(CRM/ERP/Files)] --> B[Bronze / Staging\nRaw Landing Tables]
-  B --> C[Silver / Warehouse\nClean + Conform + Integrate]
-  C --> D[Gold / Data Mart\nStar Schema + Aggregates]
-  D --> E[BI / Analytics\nPower BI / Tableau / SQL]
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## About Me
+
+Hi there! I'm **Arpita Ram Samant**, an architect turned analyst and data enthusiast. I love taking on projects and mapping out solutions and frameworks that break down the most complex problems in a digestable way. No problem is unsolvable and everything boils down to our resolve. I live by words of the famous Carl Jung: "There is a mystical fool in me that proved to be stronger than all my science."
